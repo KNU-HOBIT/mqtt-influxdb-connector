@@ -1,0 +1,15 @@
+influxdb:
+  url: 'http://influxdb-influxdb2.influxdb:80'
+  token: 'LQcRh6vq3wXU_QWpYFEhmk2IRZxgIn04ByEYHWW6WZ9xhNwyQB-2K6K_faA-CzvWlreXT0EES1Xz10STwAu0hQ=='
+  org: 'influxdata'
+  bucket: 'mqtt_iot_sensor'
+
+mqtt:
+  server: 'mosquitto.mosquitto'
+  port: 1883
+  topic: 'transport/#'
+  username: 'admin'
+  password: 'password123'
+
+util:
+  protobuf_mode: true
